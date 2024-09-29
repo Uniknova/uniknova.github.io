@@ -11069,7 +11069,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/"); /*Poner imagen correspondiente*/
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11201,3 +11201,44 @@ body {
 .footer {
   padding: 5rem 0;
 }
+/**/
+.box {
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.15);
+  padding: 25px 15px;
+  transition: all .3s;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  background-color: #0f0f0f;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 45px;
+}
+/**/
+/**
+.img-box {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+}
+/**/
+/**/
+.detail-box {
+     text-align: center;
+      color: #ffffff;
+  text-align: center;
+    margin-top: 15px;
+      width: 100%;
+  color: #ffffff;
+  padding: 25px 15px;
+  text-align: center;
+    margin-top: 25px;
+}
+/**/
