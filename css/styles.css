@@ -11231,14 +11231,17 @@ body {
 /**/
 /**/
 .detail-box {
-     text-align: center;
-      color: #ffffff;
   text-align: center;
-    margin-top: 15px;
-      width: 100%;
   color: #ffffff;
-  padding: 25px 15px;
   text-align: center;
-    margin-top: 25px;
+  margin-top: 15px;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 25px;
+}
+.team img {
+  margin: 10px; /* Agrega un margen de 10px alrededor de cada imagen */
+  border-radius: 10px; /* Agrega un borde redondo de 10px a cada imagen */
 }
 /**/
