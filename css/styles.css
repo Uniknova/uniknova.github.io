@@ -11069,7 +11069,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/background/escenarioMercader.jpg"); /*Poner imagen correspondiente*/
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/gifs/gameplay_hero.gif"); /*Poner imagen correspondiente*/
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11245,3 +11245,17 @@ body {
   border-radius: 10px; /* Agrega un borde redondo de 10px a cada imagen */
 }
 /**/
+
+.gif-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* Ocultar cualquier exceso de imagen */
+}
+
+.gif-fill {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Escala el GIF para que llene todo el contenedor */
+}
